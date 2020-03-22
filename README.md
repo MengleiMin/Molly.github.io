@@ -21,11 +21,11 @@
 `$ hexo g`  
 `$ hexo d`
 
-Now can start your new blog
+Now can start your new blog  
 `$ hexo new newpage`
 
 ### TIPS
-It is better to push source files when finish everytime
-git add .
-git commit –m "xxxx"
-git push 
+It is better to push source files when finish everytime  
+`$ git add .`  
+`$ git commit –m "xxxx"`  
+`$ git push `
