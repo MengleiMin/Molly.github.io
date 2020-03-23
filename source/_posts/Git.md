@@ -4,16 +4,13 @@ date: 2020-03-22 12:35:31
 tags: Git
 categories: Tutorial
 ---
-## **Git common usuage list**
-<!-- more -->
 
----
-
- ### **Git command**
+ ### *Git commands*
  1. When want to change the commit, use `amend` command.   
  `git commit --amend -m "Your comment"`  
  `git push origin HEAD -f` 
  
+ <!-- more -->
  
 2. Jump back to the last commit using a `commit-id` and push it to the remote branch. ```  
 `git reset --hard f145f6f`  
