@@ -1,6 +1,6 @@
 ---
 title: Git usuage
-date: 2020-03-22 12:35:31
+date: 2020-03-22 12:36:00
 tags: Git
 categories: Tutorial
 ---
