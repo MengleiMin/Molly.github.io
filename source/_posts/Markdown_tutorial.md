@@ -8,6 +8,8 @@ categories: Tutorial
 # Get Started
 Welcome to Boostnote :) This is a page for you to play around with.
 
+ <!-- more -->
+
 ## 👨‍💻 Markdown Cheat Sheet 👩‍💻
 
 ---
