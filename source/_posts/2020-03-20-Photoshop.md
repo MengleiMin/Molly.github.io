@@ -1,11 +1,11 @@
 ---
-title: Intellij usuage
-date: 2020-03-22 12:35:00
-tags: Intellij
+title: Photoshop usuage
+date: 2020-03-20 12:35:00
+tags: Photoshop
 categories: Tutorial
 ---
 
- ### *Intellij shoucuts*
+ ### *Photoshop shoutcuts*
 1. Choose a block selection  
 `* shift+cmd+8`
  

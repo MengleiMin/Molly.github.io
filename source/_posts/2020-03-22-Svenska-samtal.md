@@ -1,8 +1,8 @@
 ---
-title: Email template
-date: 2020-03-22 12:37:00
-tags: Email
-categories: 
+title: Svenska-samtal
+date: 2020-03-22 12:57:00
+tags: Swedish
+categories: Language 
 ---
 
  1. If I understand this correctly

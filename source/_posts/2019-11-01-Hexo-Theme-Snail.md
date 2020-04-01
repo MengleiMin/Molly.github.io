@@ -1,14 +1,14 @@
 ---
-title: Hexo-Theme-Snail
+title: Hexo Theme Snail
 catalog: true
 comments: true
-date: 2019-11-01 22:02:12
+date: 2020-03-10 22:02:12
 subtitle: A succinct hexo theme.
 header-img: snail-bg.jpg
 tags:
-- hexo-theme-snail
+- Hexo
 categories:
-- hexo
+- Hexo
 ---
 # hexo-theme-snail
 [View Hexo-Theme-Snail Sources On Github &#10174; ](https://github.com/dusign/hexo-theme-snail)
