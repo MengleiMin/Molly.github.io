@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>English words</title>
-      <link href="/2020/03/22/English-words/"/>
-      <url>/2020/03/22/English-words/</url>
-      
-        <content type="html"><![CDATA[<ul><li>Jury: 陪审团</li><li>someone in a coma: 某人在昏迷状态</li><li><p>elephant seal: 海豹</p><a id="more"></a></li><li><p>harem： 妻妾</p></li><li>portfolio: 投资组合</li><li>captial: 资本</li><li>tax credits: 税收抵免</li><li>marital status:  婚姻状态</li><li>wildcard: 通配符 </li><li>good call: 好决定</li><li>stepwise: 逐步地</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Language </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> English </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Svenska ordlista</title>
       <link href="/2020/03/22/Svenska-ord/"/>
       <url>/2020/03/22/Svenska-ord/</url>
@@ -71,31 +46,6 @@
         <tags>
             
             <tag> Swedish </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>English phrases</title>
-      <link href="/2020/03/22/English-phrases/"/>
-      <url>/2020/03/22/English-phrases/</url>
-      
-        <content type="html"><![CDATA[<p><code>än så länge:</code>  <strong>so far</strong></p> <a id="more"></a>]]></content>
-      
-      
-      <categories>
-          
-          <category> Language </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> English </tag>
             
         </tags>
       
@@ -129,17 +79,73 @@
     
     
     <entry>
-      <title>Email template</title>
-      <link href="/2020/03/22/English-communication/"/>
-      <url>/2020/03/22/English-communication/</url>
+      <title>English words</title>
+      <link href="/2020/03/22/English-words/"/>
+      <url>/2020/03/22/English-words/</url>
       
-        <content type="html"><![CDATA[<ol><li>If I understand this correctly</li><li>May I ask xxx?</li><li>Feel free to comment here if you have any opinions on this already!</li><li>I would like to check with you that I have understood correctly regarding the upstream integration (API),</li><li>Say good by to employees who will leave: I wish you all the best in your future endeavors. </li><li>When asked if everyone have talked in stand up meeting: Have you gone? </li><li>May I ask xxx ?</li></ol>]]></content>
+        <content type="html"><![CDATA[<ul><li>Jury: 陪审团</li><li>someone in a coma: 某人在昏迷状态</li><li><p>elephant seal: 海豹</p><a id="more"></a></li><li><p>harem： 妻妾</p></li><li>portfolio: 投资组合</li><li>captial: 资本</li><li>tax credits: 税收抵免</li><li>marital status:  婚姻状态</li><li>wildcard: 通配符 </li><li>good call: 好决定</li><li>stepwise: 逐步地</li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> Email </tag>
+            <tag> English </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>English phrases</title>
+      <link href="/2020/03/22/English-phrases/"/>
+      <url>/2020/03/22/English-phrases/</url>
+      
+        <content type="html"><![CDATA[<p><code>än så länge:</code>  <strong>so far</strong></p> <a id="more"></a>]]></content>
+      
+      
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> English </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>English daily communication</title>
+      <link href="/2020/03/22/English-communication/"/>
+      <url>/2020/03/22/English-communication/</url>
+      
+        <content type="html"><![CDATA[<ol><li>If I understand this correctly</li><li>May I ask xxx?</li><li>Feel free to comment here if you have any opinions on this already!</li><li>I would like to check with you that I have understood correctly regarding the upstream integration (API),</li><li>Say good by to employees who will leave: I wish you all the best in your future endeavors. </li><li>When asked if everyone have talked in stand up meeting: Have you gone? </li><li>May I ask xxx ?</li><li>I am happy about that.</li><li>xxx, Would you like to go next?</li><li>this was pretty much things I would like to share with you (end of presentation)</li><li>Please interrupt me if you have any questions (when presentation)</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Language </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Communication </tag>
             
         </tags>
       
