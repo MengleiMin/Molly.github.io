@@ -1,8 +1,8 @@
 ---
-title: Email template
-date: 2020-03-22 12:37:00
-tags: Email
-categories: 
+title: English daily communication
+date: 2020-03-22 8:37:00
+tags: Communication
+categories: Language
 ---
 
  1. If I understand this correctly
@@ -12,3 +12,7 @@ categories:
  5. Say good by to employees who will leave: I wish you all the best in your future endeavors. 
  6. When asked if everyone have talked in stand up meeting: Have you gone? 
  7. May I ask xxx ?
+ 8. I am happy about that.
+ 9. xxx, Would you like to go next?
+ 10. this was pretty much things I would like to share with you (end of presentation)
+ 11. Please interrupt me if you have any questions (when presentation)
