@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://memicat.com/2020/03/22/English-communication/</loc>
-    <lastmod>2020-04-02</lastmod>
+    <lastmod>2020-04-24</lastmod>
+  </url>  <url>
+    <loc>http://memicat.com/2020/03/22/English-phrases/</loc>
+    <lastmod>2020-04-22</lastmod>
+  </url>  <url>
+    <loc>http://memicat.com/2020/03/20/Git/</loc>
+    <lastmod>2020-04-21</lastmod>
+  </url>  <url>
+    <loc>http://memicat.com/2020/03/20/Intellij/</loc>
+    <lastmod>2020-04-15</lastmod>
   </url>  <url>
     <loc>http://memicat.com/2020/03/22/English-words/</loc>
     <lastmod>2020-04-01</lastmod>
   </url>  <url>
     <loc>http://memicat.com/2020/03/22/Svenska-ord/</loc>
-    <lastmod>2020-04-01</lastmod>
-  </url>  <url>
-    <loc>http://memicat.com/2020/03/22/English-phrases/</loc>
     <lastmod>2020-04-01</lastmod>
   </url>  <url>
     <loc>http://memicat.com/2020/03/22/Svenska-samtal/</loc>
@@ -19,16 +25,10 @@
     <loc>http://memicat.com/2020/03/10/Hexo-Theme-Snail/</loc>
     <lastmod>2020-04-01</lastmod>
   </url>  <url>
-    <loc>http://memicat.com/2020/03/20/Git/</loc>
-    <lastmod>2020-03-31</lastmod>
-  </url>  <url>
     <loc>http://memicat.com/2020/03/20/Markdown/</loc>
     <lastmod>2020-03-31</lastmod>
   </url>  <url>
     <loc>http://memicat.com/2020/03/20/Spring-boot/</loc>
-    <lastmod>2020-03-31</lastmod>
-  </url>  <url>
-    <loc>http://memicat.com/2020/03/20/Intellij/</loc>
     <lastmod>2020-03-31</lastmod>
   </url>  <url>
     <loc>http://memicat.com/2020/03/20/Photoshop/</loc>
