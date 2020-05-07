@@ -5,6 +5,6 @@ tags: English
 categories: Language
 ---
 
-`än så länge:`  **so far**
+`choose the first alternative that comes to mind.:`  **选择第一个选项**
 
  <!-- more -->

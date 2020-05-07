@@ -16,3 +16,8 @@ categories: Language
  9. xxx, Would you like to go next?
  10. this was pretty much things I would like to share with you (end of presentation)
  11. Please interrupt me if you have any questions (when presentation)
+ 12. As far as I understood, xxxx
+ 13. As I understood, xxx
+ 14. Feel free to come with feedback or let me know if you see an typos
+ 15. Sorry I'm a Jade noob, but if I understand you both correctly. Is the alternatives:
+ 16. I assume some dependency in my service is wrongful, would like to find the cause myself. Any tips on what to look for?
