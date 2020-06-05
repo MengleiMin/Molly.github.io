@@ -20,6 +20,7 @@
 5. Generation and deployment  
 `$ hexo g`  
 `$ hexo d`
+`$ hexo server`
 
 Now can start your new blog  
 `$ hexo new newpage`
