@@ -125,7 +125,7 @@
                         
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count">273</span> and
+                                Words <span class="post-count">276</span> and
                                 Reading Time <span class="post-count">1</span> Minutes
                             </span>
                             <div class="blank_box"></div>
@@ -270,22 +270,44 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <h3 id="Git-commands"><a href="#Git-commands" class="headerlink" title="Git commands"></a><em>Git commands</em></h3><h4 id="When-want-to-change-the-commit-use-amend-command"><a href="#When-want-to-change-the-commit-use-amend-command" class="headerlink" title="When want to change the commit, use amend command."></a>When want to change the commit, use <code>amend</code> command.</h4><p> <code>git commit --amend -m &quot;Your comment&quot;</code><br> <code>git push origin HEAD -f</code> </p>
- <a id="more"></a>
-<h4 id="Jump-back-to-the-last-commit-using-a-commit-id-and-push-it-to-the-remote-branch"><a href="#Jump-back-to-the-last-commit-using-a-commit-id-and-push-it-to-the-remote-branch" class="headerlink" title="Jump back to the last commit using a commit-id and push it to the remote branch. ```"></a>Jump back to the last commit using a <code>commit-id</code> and push it to the remote branch. ```</h4><p><code>git reset --hard f145f6f</code><br><code>git push origin -f</code> </p>
-<h4 id="Undo-the-last-commit"><a href="#Undo-the-last-commit" class="headerlink" title="Undo the last commit"></a>Undo the last commit</h4><p><code>git reset --soft HEAD~1</code><br>If you don’t want to keep these changes, simply use the <code>--hard</code>flag. Be sure to only do this when you’re sure you don’t need these changes anymore.<br><code>git reset --hard HEAD~1</code></p>
-<h4 id="Remove-the-merge-just-now"><a href="#Remove-the-merge-just-now" class="headerlink" title="Remove the merge just now"></a>Remove the merge just now</h4><p><code>git fetch origin</code><br><code>git reset --hard origin</code></p>
-<h4 id="git-reverte"><a href="#git-reverte" class="headerlink" title="git reverte"></a>git reverte</h4><p>Fetch data from remote repo<br><code>git fetch</code><br><code>git checkout origin/master datasets/file</code></p>
-<h4 id="Create-branch"><a href="#Create-branch" class="headerlink" title="Create branch"></a>Create branch</h4><p><code>git pull</code><br><code>git checkout -branch branchName</code><br><code>git push origin branchName</code></p>
-<h4 id="Delete-branch-from-local-and-remote"><a href="#Delete-branch-from-local-and-remote" class="headerlink" title="Delete branch from local and remote"></a>Delete branch from local and remote</h4><p><code>git branch -delete branchName</code><br><code>git push origin --delete branchName</code></p>
-<h4 id="Resolve-Conflicts"><a href="#Resolve-Conflicts" class="headerlink" title="Resolve Conflicts"></a>Resolve Conflicts</h4><p>Step 1. Checkout the source branch and merge in the changes from the target branch.<br><code>git merge --abort</code>  (If exist uncommited files)<br><code>git checkout feature/branchName</code><br><code>git pull origin master</code>  </p>
+                <h3 id="Git-commands"><a href="#Git-commands" class="headerlink" title="Git commands"></a><em>Git commands</em></h3><ul>
+<li>When want to change the commit, use <code>amend</code> command.<br><code>git commit --amend -m &quot;Your comment&quot;</code><br><code>git push origin HEAD -f</code> </li>
+</ul>
+<a id="more"></a>
+<ul>
+<li>Jump back to the last commit using a <code>commit-id</code> and push it to the remote branch. <code>`` </code>git reset —hard f145f6f<code>`git push origin -f</code> </li>
+</ul>
+<ul>
+<li>Undo the last commit<br><code>git reset --soft HEAD~1</code><br>If you don’t want to keep these changes, simply use the <code>--hard</code>flag. Be sure to only do this when you’re sure you don’t need these changes anymore.<br><code>git reset --hard HEAD~1</code></li>
+</ul>
+<ul>
+<li>Remove the merge just now<br><code>git fetch origin</code><br><code>git reset --hard origin</code></li>
+</ul>
+<ul>
+<li>git reverte<br>Fetch data from remote repo<br><code>git fetch</code><br><code>git checkout origin/master datasets/file</code></li>
+</ul>
+<ul>
+<li><p>Create branch<br><code>git pull</code><br><code>git checkout -branch branchName</code><br><code>git push origin branchName</code></p>
+</li>
+<li><p>Delete branch from local and remote<br><code>git branch -delete branchName</code><br><code>git push origin --delete branchName</code></p>
+</li>
+</ul>
+<ul>
+<li>Resolve Conflicts<br>Step 1. Checkout the source branch and merge in the changes from the target branch.<br><code>git merge --abort</code>  (If exist uncommited files)<br><code>git checkout feature/branchName</code><br><code>git pull origin master</code>  </li>
+</ul>
 <p>Step 2. After the merge conflicts are resolved, stage the changes accordingly, commit the changes and push.<br><code>git commit</code><br><code>git push origin HEAD</code>  </p>
-<h4 id="Rename-remote-branch"><a href="#Rename-remote-branch" class="headerlink" title="Rename remote branch"></a>Rename remote branch</h4><p>Step 1a. Rename your local branch.<br>If you are on the branch you want to rename:<br><code>git branch -m new-name</code><br>Step 1b. If you are on a different branch:<br><code>git branch -m old-name new-name</code></p>
+<ul>
+<li>Rename remote branch<br>Step 1a. Rename your local branch.<br>If you are on the branch you want to rename:<br><code>git branch -m new-name</code><br>Step 1b. If you are on a different branch:<br><code>git branch -m old-name new-name</code></li>
+</ul>
 <p>Step 2. Delete the old-name remote branch and push the new-name local branch.<br><code>git push origin :old-name new-name</code></p>
 <p>Step 3. Reset the upstream branch for the new-name local branch.<br><code>git push origin -u new-name</code></p>
 <hr>
-<h3 id="Git-short-command"><a href="#Git-short-command" class="headerlink" title="Git short command"></a><strong>Git short command</strong></h3><h4 id="Show-commit-history"><a href="#Show-commit-history" class="headerlink" title="Show commit history"></a>Show commit history</h4><p><code>git reflog</code></p>
-<h4 id="Show-graphical-history-viewer"><a href="#Show-graphical-history-viewer" class="headerlink" title="Show graphical history viewer"></a>Show graphical history viewer</h4><p><code>gitk</code></p>
+<h3 id="Git-short-command"><a href="#Git-short-command" class="headerlink" title="Git short command"></a><strong>Git short command</strong></h3><ul>
+<li><p>Show commit history<br><code>git reflog</code></p>
+</li>
+<li><p>Show graphical history viewer<br><code>gitk</code></p>
+</li>
+</ul>
 <hr>
 
                 
@@ -650,7 +672,7 @@
         
 
         
-            <script type="text/javascript" src="/js/mouse-click.js" content='[&#34;🌱&#34;,&#34;just do it&#34;,&#34;🍀&#34;]' color='[&#34;rgb(121,93,179)&#34; ,&#34;rgb(76,180,231)&#34; ,&#34;rgb(184,90,154)&#34;]'></script>
+            <script type="text/javascript" src="/js/mouse-click.js" content='[&quot;🌱&quot;,&quot;just do it&quot;,&quot;🍀&quot;]' color='[&quot;rgb(121,93,179)&quot; ,&quot;rgb(76,180,231)&quot; ,&quot;rgb(184,90,154)&quot;]'></script>
         
 
         <!-- background effects end -->
@@ -660,6 +682,21 @@
     
         <script src="/js/ribbonDynamic.js"></script>
     
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 
 </html>
