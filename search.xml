@@ -233,7 +233,7 @@
       <link href="/2020/03/20/Intellij/"/>
       <url>/2020/03/20/Intellij/</url>
       
-        <content type="html"><![CDATA[<h3 id="Intellij-shoutcuts"><a href="#Intellij-shoutcuts" class="headerlink" title="Intellij shoutcuts"></a><em>Intellij shoutcuts</em></h3><ol><li><p>Choose a block selection<br><code>* shift+cmd+8</code></p><a id="more"></a></li><li><p>Create Test</p></li><li><p>Find in path<br><code>* cmd+shift+f</code></p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="Intellij-shoutcuts"><a href="#Intellij-shoutcuts" class="headerlink" title="Intellij shoutcuts"></a><em>Intellij shoutcuts</em></h3><ol><li><p>Choose a block selection<br><code>* shift+cmd+8</code></p><a id="more"></a></li><li><p>Create Test</p></li><li><p>Find in path<br><code>* cmd+shift+f</code></p></li><li><p>New scratch file<br><code>* cmd+shift+N</code>  </p></li><li><p>Format JSON in a scratch file<br><code>* cmd+shift+option+L</code>  </p></li></ol>]]></content>
       
       
       <categories>
