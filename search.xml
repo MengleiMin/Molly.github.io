@@ -233,7 +233,7 @@
       <link href="/2020/03/20/Intellij/"/>
       <url>/2020/03/20/Intellij/</url>
       
-        <content type="html"><![CDATA[<h3 id="Intellij-shoutcuts"><a href="#Intellij-shoutcuts" class="headerlink" title="Intellij shoutcuts"></a><em>Intellij shoutcuts</em></h3><h4 id="Choose-a-block-selection"><a href="#Choose-a-block-selection" class="headerlink" title="Choose a block selection"></a>Choose a block selection</h4><p><code>* shift+cmd+8</code></p> <a id="more"></a><h4 id="Create-Test"><a href="#Create-Test" class="headerlink" title="Create Test"></a>Create Test</h4><p><code>* cmd+shift+T</code></p><h4 id="Find-in-path"><a href="#Find-in-path" class="headerlink" title="Find in path"></a>Find in path</h4><p><code>* cmd+shift+f</code></p><h4 id="New-scratch-file"><a href="#New-scratch-file" class="headerlink" title="New scratch file"></a>New scratch file</h4><p><code>* cmd+shift+N</code>  </p><h4 id="Format-JSON-in-a-scratch-file"><a href="#Format-JSON-in-a-scratch-file" class="headerlink" title="Format JSON in a scratch file"></a>Format JSON in a scratch file</h4><p><code>* cmd+shift+option+L</code>  </p>]]></content>
+        <content type="html"><![CDATA[<h3 id="Intellij-shoutcuts"><a href="#Intellij-shoutcuts" class="headerlink" title="Intellij shoutcuts"></a><em>Intellij shoutcuts</em></h3><ul><li><p>Choose a block selection<br><code>* shift+cmd+8</code></p><a id="more"></a></li><li><p>Create Test<br><code>* cmd+shift+T</code></p></li><li><p>Find in path<br><code>* cmd+shift+f</code></p></li><li><p>New scratch file<br><code>* cmd+shift+N</code>  </p></li><li><p>Format JSON in a scratch file<br><code>* cmd+shift+option+L</code>  </p></li></ul>]]></content>
       
       
       <categories>
