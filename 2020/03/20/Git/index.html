@@ -125,7 +125,7 @@
                         
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count">275</span> and
+                                Words <span class="post-count">286</span> and
                                 Reading Time <span class="post-count">1</span> Minutes
                             </span>
                             <div class="blank_box"></div>
@@ -297,6 +297,9 @@
 </ul>
 <ul>
 <li>Rename remote branch<br><strong>Step 1a</strong>. Rename your local branch.<br>If you are on the branch you want to rename:<br><code>git branch -m new-name</code><br><strong>Step 1b</strong>. If you are on a different branch:<br><code>git branch -m old-name new-name</code><br><strong>Step 2</strong>. Delete the old-name remote branch and push the new-name local branch.<br><code>git push origin :old-name new-name</code><br><strong>Step 3</strong>. Reset the upstream branch for the new-name local branch.<br><code>git push origin -u new-name</code></li>
+</ul>
+<ul>
+<li>Remove the last commit<br><code>git reset --hard HEAD^</code><br><code>git push origin -f</code>  </li>
 </ul>
 <hr>
 <h3 id="Git-short-command"><a href="#Git-short-command" class="headerlink" title="Git short command"></a><strong>Git short command</strong></h3><ul>
