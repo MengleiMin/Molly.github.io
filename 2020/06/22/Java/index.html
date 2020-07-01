@@ -125,7 +125,7 @@
                         
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count">557</span> and
+                                Words <span class="post-count">582</span> and
                                 Reading Time <span class="post-count">3</span> Minutes
                             </span>
                             <div class="blank_box"></div>
@@ -341,7 +341,7 @@
 </li>
 </ul>
 <hr>
-<h2 id="Regexp-restrction-annotation"><a href="#Regexp-restrction-annotation" class="headerlink" title="Regexp/ restrction annotation"></a><em>Regexp/ restrction annotation</em></h2><h4 id="Integer"><a href="#Integer" class="headerlink" title="Integer"></a>Integer</h4><p><code>@Positive</code> and <code>@PositiveOrZero</code><br> <code>@Min(100)</code> and  <code>@Max(100)</code>  </p>
+<h2 id="Regexp-restrction-annotation"><a href="#Regexp-restrction-annotation" class="headerlink" title="Regexp/ restrction annotation"></a><em>Regexp/ restrction annotation</em></h2><h4 id="Integer"><a href="#Integer" class="headerlink" title="Integer"></a>Integer</h4><p><code>@Positive</code> and <code>@PositiveOrZero</code><br> <code>@Min(100)</code> and  <code>@Max(100)</code><br> <code>@Range(min = 1000, max = 3000)</code></p>
 <h4 id="String"><a href="#String" class="headerlink" title="String"></a>String</h4><p> <code>@NotEmpty</code> // <em>String is not empty</em><br> <code>@NotNull</code> // <em>String is not Null</em><br> <code>@Size(max = 100)</code>  // <em>length of String</em><br> <code>@Pattern(regexp = &quot;(^[1-9]$)|(^0[1-9]|1[0-2]$)&quot;)</code>  // <em>1 - 12, include 01, 02</em><br> <code>@Pattern(regexp = &quot;^\d{4}$&quot;)</code> // <em>Four digits</em><br> <code>@Pattern(regexp = &quot;[A-Z]{3}&quot;)</code> // <em>The three character ISO 4217 currency code</em></p>
 <h4 id="LocalDate"><a href="#LocalDate" class="headerlink" title="LocalDate"></a>LocalDate</h4><p> <code>@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = &quot;yyyy-MM-dd&quot;)</code></p>
 <h2 id="Annotations"><a href="#Annotations" class="headerlink" title="Annotations"></a><em>Annotations</em></h2><p><code>@Data</code><br><code>@EqualsAndHashCode(callSuper = true)</code> // @EqualsAndHashCode is included in @Data, and the default value of callSuper is false.</p>
@@ -366,7 +366,11 @@
 <blockquote>
 <p>This method is used to check if a String object is null or <strong>empty</strong>. </p>
 </blockquote>
-<p>&nbsp;</p>
+</li>
+<li><p><code>org.springframework.util.CollectionUtils.isEmpty(Object A)</code>    </p>
+<blockquote>
+<p>This method is used to check if a object is null or <strong>empty</strong>. .<br>&nbsp;</p>
+</blockquote>
 </li>
 </ul>
 
