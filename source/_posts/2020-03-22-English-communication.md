@@ -21,3 +21,9 @@ categories: Language
  14. Feel free to come with feedback or let me know if you see an typos
  15. Sorry I'm a Jade noob, but if I understand you both correctly. Is the alternatives:
  16. I assume some dependency in my service is wrongful, would like to find the cause myself. Any tips on what to look for?
+
+
+-----
+## For slack communication
+ 1. Super catch
+ 2. The detail that makes all the difference 
