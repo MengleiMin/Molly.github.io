@@ -125,7 +125,7 @@
                         
                             <div class="blank_box"></div>
                             <span class="meta">
-                                Words <span class="post-count">582</span> and
+                                Words <span class="post-count">583</span> and
                                 Reading Time <span class="post-count">3</span> Minutes
                             </span>
                             <div class="blank_box"></div>
@@ -345,6 +345,7 @@
 <h4 id="String"><a href="#String" class="headerlink" title="String"></a>String</h4><p> <code>@NotEmpty</code> // <em>String is not empty</em><br> <code>@NotNull</code> // <em>String is not Null</em><br> <code>@Size(max = 100)</code>  // <em>length of String</em><br> <code>@Pattern(regexp = &quot;(^[1-9]$)|(^0[1-9]|1[0-2]$)&quot;)</code>  // <em>1 - 12, include 01, 02</em><br> <code>@Pattern(regexp = &quot;^\d{4}$&quot;)</code> // <em>Four digits</em><br> <code>@Pattern(regexp = &quot;[A-Z]{3}&quot;)</code> // <em>The three character ISO 4217 currency code</em></p>
 <h4 id="LocalDate"><a href="#LocalDate" class="headerlink" title="LocalDate"></a>LocalDate</h4><p> <code>@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = &quot;yyyy-MM-dd&quot;)</code></p>
 <h2 id="Annotations"><a href="#Annotations" class="headerlink" title="Annotations"></a><em>Annotations</em></h2><p><code>@Data</code><br><code>@EqualsAndHashCode(callSuper = true)</code> // @EqualsAndHashCode is included in @Data, and the default value of callSuper is false.</p>
+<p><code>@AvroIgnore</code></p>
 <h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a><em>Functions</em></h2><ul>
 <li><code>Boolean.equals(Object obj)</code><blockquote>
 <p>Returns true if and only if the argument <strong>is not null</strong> and is a Boolean object that represents the same boolean value as this object.</p>
@@ -362,7 +363,7 @@
 <p>This method is used to check if all object are not null, it doesn’t check empty. </p>
 </blockquote>
 </li>
-<li><p><code>StringUtils.equals()</code></p>
+<li><p><code>StringUtils.isEmpty()</code></p>
 <blockquote>
 <p>This method is used to check if a String object is null or <strong>empty</strong>. </p>
 </blockquote>
