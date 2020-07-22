@@ -275,13 +275,14 @@
 </ul>
 <a id="more"></a>
 <ul>
-<li>When want to squach last N commits, use <strong>squash</strong> command.<br><code>git rebase -i HEAD~N</code><br>Choose the commits that you want to squach, and put squash command at the beginning of the commits. For example, the last 4 commits below will be squashed into first commit <strong>01d1124</strong>.</li>
+<li><p>When want to squach last N commits, use <strong>squash</strong> command.<br><code>git rebase -i HEAD~N</code><br>Choose the commits that you want to squach, and put squash command at the beginning of the commits. For example, the last 4 commits below will be squashed into first commit <strong>01d1124</strong>.</p>
+<pre><code>  pick   01d1124 commit 1.    
+  squash 6340aaa commit 2.
+  squash ebfd367 commit 3.
+  squash 30e0ccb commit 4.
+</code></pre><p>  Once this is done and saved, another editor pops up, you can also edit the commit message there if you want to.<br>Save and exit, use the following command to push the squached commit.<br><code>git push origin HEAD -f</code> </p>
+</li>
 </ul>
-<pre><code>pick   01d1124 commit 1.
-squash 6340aaa commit 2.
-squash ebfd367 commit 3.
-squash 30e0ccb commit 4.
-</code></pre><p>Once this is done and saved, another editor pops up, you can also edit the commit message there if you want to.<br>Save and exit, use the following command to push the squached commit.<br><code>git push origin HEAD -f</code> </p>
 <ul>
 <li>Jump back to the last commit using a <code>commit-id</code> and push it to the remote branch.<br><code>git reset --hard f145f6f</code><br><code>git push origin -f</code> </li>
 </ul>
