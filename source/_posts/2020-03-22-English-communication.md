@@ -21,6 +21,9 @@ categories: Language
  14. Feel free to come with feedback or let me know if you see an typos
  15. Sorry I'm a Jade noob, but if I understand you both correctly. Is the alternatives:
  16. I assume some dependency in my service is wrongful, would like to find the cause myself. Any tips on what to look for?
+ 17. For xxx, we are opting to xxx, do you see any issues?
+ 18. no worries at all. we all do our best 
+ 19. Yes it is, but since I am only using it inside IrisRequestMapper at the moment, I decided to define it locally for now. I consider your suggestion in mind if there are more use cases in the project
 
 
 -----
